@@ -1,11 +1,12 @@
 #include <stdio.h>
 
 int main() {
+
     char estado = 'A';
-    char número[5];
+    char numero[5];
     char cidade[30];
-    int população;
-    float área;
+    int populacao;
+    float area;
     float PIB;
     int PontosTuristicos;
 
@@ -13,16 +14,16 @@ int main() {
     scanf("%s", &estado);
 
     printf("Digite o codigo da sua carta: ");
-    scanf ("%s", &número);
+    scanf ("%s", &numero);
 
     printf("Digite o nome da cidade: ");
     scanf("%s", &cidade);
 
-    printf("População dessa cidade: ");
-    scanf("%d", &população);
+    printf("Populacao dessa cidade: ");
+    scanf("%d", &populacao);
 
-    printf("Digite o tamanho da área dessa cidade: ");
-    scanf("%f", &área);
+    printf("Digite o tamanho da area dessa cidade: ");
+    scanf("%f", &area);
 
     printf("Digite o valor do PIB dessa cidade: ");
     scanf("%f", &PIB);
@@ -32,10 +33,10 @@ int main() {
 
     printf("\nCarta 1 \n");
     printf("Estado: %c\n", estado);
-    printf("Código: %s\n", número);
+    printf("Código: %s\n", numero);
     printf("Cidade: %s\n", cidade);
-    printf("População: %d\n", população);
-    printf("Área: %f Km\n", área);
+    printf("População: %d\n", populacao);
+    printf("Área: %f Km\n", area);
     printf("PIB: %f Bilhoes de reais\n", PIB);
     printf("Pontos Turisticos: %d\n", PontosTuristicos);
 
@@ -43,16 +44,16 @@ int main() {
     scanf("%s", &estado);
 
     printf("Digite o codigo da sua segunda carta: ");
-    scanf ("%s", &número);
+    scanf ("%s", &numero);
 
     printf("Digite o nome da segunda cidade: ");
     scanf("%s", &cidade);
 
-    printf("População dessa cidade: ");
-    scanf("%d", &população);
+    printf("Populacao dessa cidade: ");
+    scanf("%d", &populacao);
 
-    printf("Digite o tamanho da área dessa cidade: ");
-    scanf("%f", &área);
+    printf("Digite o tamanho da area dessa cidade: ");
+    scanf("%f", &area);
 
     printf("Digite o valor do PIB dessa cidade: ");
     scanf("%f", &PIB);
@@ -62,10 +63,10 @@ int main() {
 
     printf("\nCarta 2 \n");
     printf("Estado: %c\n", estado);
-    printf("Código: %s\n", número);
+    printf("Código: %s\n", numero);
     printf("Cidade: %s\n", cidade);
-    printf("População: %d\n", população);
-    printf("Área: %f Km\n", área);
+    printf("População: %d\n", populacao);
+    printf("Área: %f Km\n", area);
     printf("PIB: %f Bilhoes de reais\n", PIB);
     printf("Pontos Turisticos: %d", PontosTuristicos);
 
