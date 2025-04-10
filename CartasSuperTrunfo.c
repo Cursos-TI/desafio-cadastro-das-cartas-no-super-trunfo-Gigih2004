@@ -35,8 +35,8 @@ int main() {
     printf("Codigo: %s\n", numero);
     printf("Cidade: %s\n", cidade);
     printf("Populacao: %d\n", populacao);
-    printf("Area: %f Km\n", area);
-    printf("PIB: %f Bilhoes de reais\n", PIB);
+    printf("Area: %.2f Km\n", area);
+    printf("PIB: %.2f Bilhoes de reais\n", PIB);
     printf("Pontos Turisticos: %d\n", PontosTuristicos);
 
     printf("\nDigite a Letra do seu segundo estado escolhido: ");
@@ -65,8 +65,8 @@ int main() {
     printf("Codigo: %s\n", numero);
     printf("Cidade: %s\n", cidade);
     printf("Populacao: %d\n", populacao);
-    printf("Area: %f Km\n", area);
-    printf("PIB: %f Bilhoes de reais\n", PIB);
+    printf("Area: %.2f Km\n", area);
+    printf("PIB: %.2f Bilhoes de reais\n", PIB);
     printf("Pontos Turisticos: %d\n", PontosTuristicos);
 
     return 0;
