@@ -8,6 +8,7 @@ int main() {
     float area;
     float PIB;
     int PontosTuristicos;
+    float densidadepopulacional, pibpercapita;
 
     printf("Digite a Letra do seu estado escolhido: ");
     scanf("%s", &estado);
@@ -30,6 +31,9 @@ int main() {
     printf("Total de pontos turisticos: ");
     scanf("%d", &PontosTuristicos); 
 
+    densidadepopulacional = (populacao / area);
+    pibpercapita = (PIB / populacao);
+
     printf("\nCarta 1 \n");
     printf("Estado: %c\n", estado);
     printf("Codigo: %s\n", numero);
@@ -38,6 +42,8 @@ int main() {
     printf("Area: %.2f Km\n", area);
     printf("PIB: %.2f Bilhoes de reais\n", PIB);
     printf("Pontos Turisticos: %d\n", PontosTuristicos);
+    printf("Densidade Populacional: %.2f hab/km²\n", densidadepopulacional);
+    printf("Pib Per Capita: %f reais\n", pibpercapita); // Não é possivel colocar 2 casas decimais pois o valor sera equivalente a 0.
 
     printf("\nDigite a Letra do seu segundo estado escolhido: ");
     scanf("%s", &estado);
@@ -60,6 +66,9 @@ int main() {
     printf("Total de pontos turisticos: ");
     scanf("%d", &PontosTuristicos); 
 
+    densidadepopulacional = (populacao / area);
+    pibpercapita = (PIB / populacao);
+
     printf("\nCarta 2 \n");
     printf("Estado: %c\n", estado);
     printf("Codigo: %s\n", numero);
@@ -68,6 +77,8 @@ int main() {
     printf("Area: %.2f Km\n", area);
     printf("PIB: %.2f Bilhoes de reais\n", PIB);
     printf("Pontos Turisticos: %d\n", PontosTuristicos);
+    printf("Densidade Populacional: %.2f hab/km²\n", densidadepopulacional);
+    printf("Pib Per Capita: %f reais\n", pibpercapita); // Não é possivel colocar 2 casas decimais pois o valor sera equivalente a 0.
 
     return 0;
 }
